@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# .NET build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+.vs/
+.idea/
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Synthesis runtime output
+*.esp
+*.esm
+*.esl
