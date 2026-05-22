@@ -1,8 +1,8 @@
 1. Make sure Synthesis is set up correctly. Download from https://github.com/Mutagen-Modding/Synthesis/releases and follow the directions at https://mutagen-modding.github.io/Synthesis/Installation/ if you need help.
 2. Download the Synthesis patcher from the Simple Scroll Transcribing modpage and double click to add it to Synthesis, or search for it in the Synthesis UI.
 3. Run your patcher. Check the output to see which scrolls had recipies created. Spider scrolls from Dragonborn are excluded as they are meant to be crafted a different way. Shalidor's Insights are excluded by default. Let me know if you hate that.
-   3a. Pass 1 creates recipes following the original logic of the mod, where if you know a spell, or if you possess at least one copy of the scroll or its associated spell tome, you can make new copies using an inkwell, 2 rolls of paper, and a spell-level appropriate soul gem.
-   3b. Pass 2 adds a new logic that creates a transcription recipe for scrolls that exist, but don't have an associated standalone spell/spell tome. If you have it, why can't you write it down?!
+   - Pass 1 creates recipes following the original logic of the mod, where if you know a spell, or if you possess at least one copy of the scroll or its associated spell tome, you can make new copies using an inkwell, 2 rolls of paper, and a spell-level appropriate soul gem.
+   - Pass 2 adds a new logic that creates a transcription recipe for scrolls that exist, but don't have an associated standalone spell/spell tome. If you have it, why can't you write it down?!
 4. Close Synthesis and activate your patch.
 5. ???
 6. Profit.
