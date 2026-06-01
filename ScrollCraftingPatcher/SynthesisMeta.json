@@ -4,10 +4,8 @@
   "OneLineDescription": "Creates crafting recipes for scrolls at a ScrollCrafting workbench.",
   "LongDescription": "Generates ConstructibleObject recipes for every scroll in the load order at a ScrollCrafting workbench, using an inkwell, paper rolls, and a soul gem scaled to the spell's level. Pass 1 creates recipes visible when the player owns the scroll, the matching spell tome, or knows the spell. Pass 2 covers remaining scrolls with a scroll-ownership condition only.",
   "PreferredAutoVersioning": "Default",
-  "RequiredMods": [],
+  "RequiredMods": ["ScrollCrafting.esp"],
   "TargetedReleases": [
-    "SkyrimSE",
-    "SkyrimSEGog",
-    "SkyrimVR"
+    "SkyrimSE"
   ]
 }
