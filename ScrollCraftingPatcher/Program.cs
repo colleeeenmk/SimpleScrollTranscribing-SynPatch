@@ -240,9 +240,9 @@ public class Program
             {
                 state.LinkCache.TryResolve<IMagicEffectGetter>(effect.BaseEffect.FormKey, out var mgef);
                 if (mgef is null) continue;
-                if (!(mgef.BaseCost > max)) continue;
+                if (!(mgef.BaseCost > max) && max > 0.0f) continue;
                 max = mgef.BaseCost;
-                costliestEffectLevel = mgef.MinimumSkillLevel;
+                costliestEffectLevel = max > 0.0f ? mgef.MinimumSkillLevel : Math.Max(costliestEffectLevel, mgef.MinimumSkillLevel);
             }
 
             var soulGemLink = costliestEffectLevel switch
